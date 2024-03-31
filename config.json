@@ -1,0 +1,11 @@
+{
+	"port": 24157,
+	"maxFileSize": 4.5,
+	"mode": true,
+	"domainlist": [
+		"insert",
+		"your",
+		"domain",
+		"list"
+	]
+}

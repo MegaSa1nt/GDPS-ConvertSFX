@@ -1,0 +1,20 @@
+{
+  "name": "sa1nt.sfx",
+  "version": "1.0.0",
+  "description": "This API converts SFXs for GDPSs to OGG to be able to use it in Geometry Dash properly.",
+  "main": "gcs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MegaSa1nt",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "express": "^4.19.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "multer": "^1.4.5-lts.1",
+    "method-override": "^3.0.0",
+	"axios": "^1.6.8",
+	"form-data": "^4.0.0"
+  }
+}
