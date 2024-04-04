@@ -1,6 +1,6 @@
 {
   "name": "sa1nt.sfx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This API converts SFXs for GDPSs to OGG to be able to use it in Geometry Dash properly.",
   "main": "gcs.js",
   "scripts": {

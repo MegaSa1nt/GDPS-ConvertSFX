@@ -146,7 +146,8 @@ function checkQuery(song) {
 	if((typeof song.body.name == 'undefined' || !song.body.name.length) ||
 	(typeof song.body.server == 'undefined' || !song.body.server.length) ||
 	(typeof song.body.token == 'undefined' || !song.body.token.length) ||
-	(typeof song.file == 'undefined') || config.mode == config.domainlist.includes(song.body.server.split('://')[1].split('/')[0])) return false;
+	(typeof song.file == 'undefined') || config.mode == config.domainlist.includes(song.body.server.split('://')[1].split('/')[0]) ||
+	(song.file.mimetype != "audio/mpeg" && song.file.mimetype != "audio/mp3")) return false;
 	return true;
 }
 

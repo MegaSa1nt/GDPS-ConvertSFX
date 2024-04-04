@@ -1,5 +1,5 @@
 # GDPS SFX convert API
-## This API converts SFXs to OGG to use it properly in Geometry Dash.
+### This API converts SFXs to OGG to use it properly in Geometry Dash.
 
 ### How to run:
 1. Use [**my dashboard**](https://github.com/MegaSa1nt/GMDprivateServer)
